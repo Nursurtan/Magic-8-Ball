@@ -14,6 +14,7 @@
 		ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
+		B1F8A8722714783800929032 /* Shaking 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1F8A8712714783800929032 /* Shaking 3.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F8A8712714783800929032 /* Shaking 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Shaking 3.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
+				B1EF019D2714746800B903F4 /* Sound */,
 				ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */,
 				ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */,
 				ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
 			);
 			path = "Magic 8 Ball";
+			sourceTree = "<group>";
+		};
+		B1EF019D2714746800B903F4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				B1F8A8712714783800929032 /* Shaking 3.wav */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
 				AD7D68C622B8EB54009C798B /* README.md in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
+				B1F8A8722714783800929032 /* Shaking 3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

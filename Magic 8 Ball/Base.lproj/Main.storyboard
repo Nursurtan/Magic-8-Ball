@@ -18,19 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Dkz-Jn-DNz">
-                                <rect key="frame" x="44" y="30" width="808" height="333"/>
+                                <rect key="frame" x="44" y="30" width="808" height="820.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask Me Anything..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyB-WA-0aV">
-                                        <rect key="frame" x="0.0" y="0.0" width="808" height="111"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="808" height="273.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball5" translatesAutoresizingMaskIntoConstraints="NO" id="O11-1k-e3m">
-                                        <rect key="frame" x="0.0" y="111" width="808" height="111"/>
+                                        <rect key="frame" x="0.0" y="273.5" width="808" height="273.5"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KP-gy-ADH">
-                                        <rect key="frame" x="0.0" y="222" width="808" height="111"/>
+                                        <rect key="frame" x="0.0" y="547" width="808" height="273.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                         <state key="normal" title="Ask">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -40,21 +40,15 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="575.5" id="Du8-8X-t1G"/>
-                                    <constraint firstAttribute="width" constant="355.5" id="YPh-Mz-K6p"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="Dkz-Jn-DNz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K5V-JS-rRu"/>
-                            <constraint firstItem="Dkz-Jn-DNz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="XTc-vX-MRr"/>
+                            <constraint firstItem="Dkz-Jn-DNz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="SI1-Ci-DjQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dkz-Jn-DNz" secondAttribute="trailing" id="ebY-pv-XbI"/>
                             <constraint firstItem="Dkz-Jn-DNz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hYN-HT-fpu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dkz-Jn-DNz" secondAttribute="bottom" constant="30" id="ktK-D5-AXt"/>
-                            <constraint firstItem="Dkz-Jn-DNz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pBl-FL-q2d"/>
                         </constraints>
                     </view>
                     <connections>
